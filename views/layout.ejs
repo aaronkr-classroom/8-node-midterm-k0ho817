@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UT-NodeJS 중간고사 | <%- title %></title>
+
+    <!-- 학생 이름과 학번 -->
+    <meta name="author" content="문경호" />
+    <meta name="description" content="웹프로그래밍 응용 중간고사" />
+
+    <!-- CSS 파일에 대한 link테그를 수정하십시오 -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      media="(max-width: 768px)"
+      href="/css/style.small.css"
+    />
+
+    <!-- JS 파일에 대한 script테그를 수정하십시오 -->
+    <script defer src="/js/functions.js"></script>
+</head>
+<body>
+    <%- include("./partials/header.ejs"); %>
+    <%- body; %>
+    <%- include("./partials/footer.ejs"); %>
+</body>
+</html>
